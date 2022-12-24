@@ -37,11 +37,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
           </div>
           <div class="input-box">
             <span class="details">Password</span>
-            <input type="text" placeholder="Enter your password" name = "password1" required>
+            <input type="password" placeholder="Enter your password" name = "password1" required>
           </div>
           <div class="input-box">
             <span class="details">Confirm Password</span>
-            <input type="text" placeholder="Confirm your password" name = "password2" required>
+            <input type="password" placeholder="Confirm your password" name = "password2" required>
           </div>
 
           <div class="input-box">
