@@ -28,11 +28,12 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 ?>
           <div class="input-box">
             <span class="details">Email</span>
-            <p>  <?php echo $email?> </p>
+            <input type="text" placeholder=<?php echo $email?> disabled readonly required>
+          
           </div>
           <div class="input-box">
             <span class="details">Phone Number</span>
-            <input type="text" placeholder="Enter your number" name = "phone" required>
+            <input type="number" placeholder="Enter your number" name = "phone" required>
           </div>
           <div class="input-box">
             <span class="details">Password</span>
