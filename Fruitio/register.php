@@ -21,11 +21,7 @@
             <input type="text" placeholder="Enter your name" name = "name" required>
               </div>
 <?php
- $ServerName = "localhost";
- $pass = "";
- $userName = "root";
- $database = "fruitio";
- $connection = mysqli_connect($ServerName,$userName,$pass,$database);
+include("dbcon.php");
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
  $email = $_POST['email'];
 }
